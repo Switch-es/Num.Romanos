@@ -35,7 +35,7 @@ class RomanNumberError( Exception ):
 def entero_a_romano(numero):
     numero = str(numero)#Transformando a string "1994"
     list_numero = list(numero)#Transformando a lista ['1','9','9','4']
-    print(list_numero)
+
     valor_romano = ""
 
     for i in range(0,len(list_numero)):
@@ -55,4 +55,4 @@ def entero_a_romano(numero):
 
     return valor_romano
 
-print(entero_a_romano(1999))
+print(entero_a_romano(3154))
